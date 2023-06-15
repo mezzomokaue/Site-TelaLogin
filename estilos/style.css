@@ -5,3 +5,88 @@
 /* Paleta de cores:
 Verde: #49a09d
 Roxo: #5f2c82 */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+main{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.596);
+}
+
+main h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+main p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+input#iemail{
+    background-color: #49a09d9f;
+    border: 3px solid #5f2c82;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+input#isenha{
+    background-color: #49a09d9f;
+    border: 3px solid #5f2c82;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+input#ientrar{
+    color: white;
+    background-color: #49a09d;
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 0px solid #49a09d;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+input#ientrar:hover{
+    background-color: #1c3b3a;
+    cursor: pointer;
+}
+
+input#iesq{
+    color: #1c3b3a;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #2a5755;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+input#iesq:hover{
+    background-color: #49a09d;
+    cursor: pointer;
+}
