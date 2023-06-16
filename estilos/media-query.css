@@ -48,4 +48,12 @@ Grandes Telas: acima de 1200px
         width: 50%;
         height: 100%;
     }
+
+    main h1{
+        font-size: 2em;
+    }
+
+    main p{
+        font-size: 1.2em;
+    }
 }

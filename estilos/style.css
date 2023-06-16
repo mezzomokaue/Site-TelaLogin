@@ -66,7 +66,7 @@ main p{
     padding-right: 10px;
     padding-bottom: 5px;
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 input#iemail{
@@ -85,39 +85,47 @@ input#isenha{
     height: 30px;
 }
 
-input#ientrar{
+form > input[type=submit]{
+    display: block;
     color: white;
     background-color: #49a09d;
     display: block;
     margin: auto;
-    width: 95%;
+    width: 90%;
     height: 40px;
     margin-bottom: 5px;
-    border: 0px solid #49a09d;
+    border: none;
     border-radius: 5px;
-    font-size: 1.1em;
-}
-
-input#ientrar:hover{
-    background-color: #1c3b3a;
+    font-size: 1em;
     cursor: pointer;
 }
 
-input#iesq{
-    color: #1c3b3a;
-    background-color: white;
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 1px solid #2a5755;
-    border-radius: 5px;
-    padding: 5px;
-    width: 95%;
-    height: 40px;
-    font-size: 1.1em;
+form > input[type=submit]:hover{
+    background-color: #2d6462;
+    cursor: pointer;
 }
 
-input#iesq:hover{
-    background-color: #49a09d;
+form > a.botao{
+    display: block;
+    text-align: center;
+    color: #2d6462;
+    background-color: white;
+    border: 1px solid #49a09d;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 7px;
+    width: 90%;
+    height: 40px;
+    font-size: 1em;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
+form > a.botao:hover{
+    background-color: #5cd3cf;
     cursor: pointer;
 }
