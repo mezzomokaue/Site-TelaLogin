@@ -39,12 +39,12 @@ Grandes Telas: acima de 1200px
     }
     
     section#login > div#formulario{
-        float: right; /*pra centralizar o conteúdo pra direita (tem q ter display block)*/
+        float: left; /*pra centralizar o conteúdo pra direita (tem q ter display block)*/
         width: 50%;
     }
 
     section#login > div#imagem{
-        float: left; /*pra centralizar o conteúdo pra esquerda */
+        float: right; /*pra centralizar o conteúdo pra esquerda */
         width: 50%;
         height: 100%;
     }
