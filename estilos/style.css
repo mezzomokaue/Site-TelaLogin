@@ -85,7 +85,7 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-13px); /*pra ajustar a caixa 10px para cima, fazer sempre na ultima linha do bloco de comandos*/
+    transform: translateY(-14px); /*pra ajustar a caixa 10px para cima, fazer sempre na ultima linha do bloco de comandos*/
 }
 
 div.campo > input:focus-within{
