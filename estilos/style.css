@@ -136,6 +136,7 @@ form > a.botao {
 
 form > a.botao > i{
     font-size: 0.8em;
+    padding-top: 8px;
 }
 
 form > a.botao:hover{
