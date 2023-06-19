@@ -28,6 +28,14 @@ Grandes Telas: acima de 1200px
         width: 30%;
         height: 100%;
     }
+
+    div.campo > input{
+        transform: translateY(-12px); /*pra ajustar a caixa 10px para cima, fazer sempre na ultima linha do bloco de comandos*/
+    }
+
+    form > a.botao {
+        padding-top: 5px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -58,5 +66,13 @@ Grandes Telas: acima de 1200px
     main p{
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    div.campo > input{
+        transform: translateY(-12px); /*pra ajustar a caixa 10px para cima, fazer sempre na ultima linha do bloco de comandos*/
+    }
+
+    form > a.botao {
+        padding-top: 5px;
     }
 }
